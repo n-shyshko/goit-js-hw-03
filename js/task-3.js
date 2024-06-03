@@ -1,8 +1,8 @@
 function filterArray(numbers, value) {
     let getGreatNum = [];
-    for (getNum of numbers) {
-            if (getNum > value) {
-            getGreatNum.push(getNum);
+    for (number of numbers) {
+            if (number > value) {
+            getGreatNum.push(number);
         }
      }
      return getGreatNum; 
